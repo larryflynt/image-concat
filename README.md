@@ -24,13 +24,13 @@ Target_Folder--SubfolderA--A01.jpg
                         |--B03.jpg
 ```
 
-Images "A01", "A02", "A03" will be stitched together to form a long strip image named 'SubfolderA.jpg'. It will be stored in 'SubfolderA'. 
+Images 'A01', 'A02', 'A03' will be stitched together to form a long strip image named 'SubfolderA.jpg'. It will be stored in 'SubfolderA'. 
 
-Similarly, images "B01", "B02", "B03" will also be stitched together to form a long strip image named 'SubfolderB.jpg', which will be stored in 'SubfolderB'.
+Similarly, images 'B01', 'B02', 'B03' will also be stitched together to form a long strip image named 'SubfolderB.jpg', which will be stored in 'SubfolderB'.
 
 #### How are the images sorted before concatenation?
 
-Before concatenating the images, "image-concat" will sort them according to the "os_sort" rules in the https://github.com/SethMMorton/natsort library, which means that they will be sorted based on your computer's default sorting rule. "natsort" is an efficient and beautiful sorting library, and we thank @SethMMorton for his contribution!
+Before concatenating the images, Image-concat will sort them according to the 'os_sort' rules in the https://github.com/SethMMorton/natsort library, which means that they will be sorted based on your computer's default sorting rule. "natsort" is an efficient and beautiful sorting library, and we thank @SethMMorton for his contribution!
 
 
 ## 中文
@@ -57,10 +57,10 @@ Target_Folder--SubfolderA--A01.jpg
                         |--B03.jpg
 ```
 
-"A01"、"A02"、"A03" 图片将被拼接成一张名为 "SubfolderA.jpg" 的长条图片，保存在 'SubfolderA' 中。
+'A01'、'A02'、'A03' 图片将被拼接成一张名为 'SubfolderA.jpg' 的长条图片，保存在 'SubfolderA' 中。
 
-同样，"B01"、"B02"、"B03" 图片也将被拼接成一张名为 "SubfolderB.jpg" 的长条图片，保存在 'SubfolderB' 中。
+同样，'B01'、'B02'、'B03' 图片也将被拼接成一张名为 'SubfolderB.jpg' 的长条图片，保存在 'SubfolderB' 中。
 
 #### 图片按什么顺序排序？
 
-image-concat在拼接图片前，会先按照https://github.com/SethMMorton/natsort 库的os_sort规则排序图片，即按照您的电脑系统默认排序规则排序，natsort是一个高效且优美的排序库，感谢@SethMMorton 的贡献！
+Image-concat在拼接图片前，会先按照https://github.com/SethMMorton/natsort 库的os_sort规则排序图片，即按照您的电脑系统默认排序规则排序，natsort是一个高效且优美的排序库，感谢@SethMMorton 的贡献！
