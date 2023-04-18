@@ -47,19 +47,15 @@ Before concatenating the images, "image-concat" will sort them according to the 
 
 比如：
 
+```
 Target_Folder--SubfolderA--A01.jpg
-
             |           |--A02.jpg
-            
             |           |--A03.jpg
-            
             |           
-            
             |--SubfolderB--B01.jpg
-            
                         |--B02.jpg
-                        
                         |--B03.jpg
+```
 
 "A01"、"A02"、"A03" 图片将被拼接成一张名为 "SubfolderA.jpg" 的长条图片，保存在 'SubfolderA' 中。
 
