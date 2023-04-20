@@ -73,7 +73,7 @@ Target_Folder--SubfolderA--A01.jpg
 Image-concat在拼接图片前，会先按照[natsort](https://github.com/SethMMorton/natsort) 库的os_sort规则排序图片，即按照您的电脑系统默认排序规则排序，natsort是一个高效且优美的排序库，感谢@SethMMorton 的贡献！
 
 #### 打包成可执行程序
-我们用这个非常好的打包程序[PyInstaller](https://github.com/pyinstaller/pyinstaller) , 将代码打包成可执行程序。
+我们用[PyInstaller](https://github.com/pyinstaller/pyinstaller) 这个非常好的打包程序, 将代码打包成可执行程序。
 ```
 pyinstaller -F -i Oxygen-Actions-view-preview.ico image_concat.py
 ```
