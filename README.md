@@ -30,7 +30,14 @@ Similarly, images 'B01', 'B02', 'B03' will also be stitched together to form a l
 
 #### How are the images sorted before concatenation?
 
-Before concatenating the images, Image-concat will sort them according to the 'os_sort' rules in the https://github.com/SethMMorton/natsort library, which means that they will be sorted based on your computer's default sorting rule. "natsort" is an efficient and beautiful sorting library, and we thank @SethMMorton for his contribution!
+Before concatenating the images, Image-concat will sort them according to the 'os_sort' rules in the [natsort](https://github.com/SethMMorton/natsort) library, which means that they will be sorted based on your computer's default sorting rule. "natsort" is an efficient and beautiful sorting library, and we thank @SethMMorton for his contribution!
+
+#### Executable Package
+We use [PyInstaller](https://github.com/pyinstaller/pyinstaller) , a wonderful project, to package the code into an executable program.
+```
+pyinstaller -F -i Oxygen-Actions-view-preview.ico image_concat.py
+```
+Thanks [Oxygen-Icons.org](http://www.oxygen-icons.org/) for their extraordinary creations!
 
 
 ## 中文
@@ -63,4 +70,11 @@ Target_Folder--SubfolderA--A01.jpg
 
 #### 图片按什么顺序排序？
 
-Image-concat在拼接图片前，会先按照https://github.com/SethMMorton/natsort 库的os_sort规则排序图片，即按照您的电脑系统默认排序规则排序，natsort是一个高效且优美的排序库，感谢@SethMMorton 的贡献！
+Image-concat在拼接图片前，会先按照[natsort](https://github.com/SethMMorton/natsort) 库的os_sort规则排序图片，即按照您的电脑系统默认排序规则排序，natsort是一个高效且优美的排序库，感谢@SethMMorton 的贡献！
+
+#### 打包成可执行程序
+我们用这个非常好的打包程序[PyInstaller](https://github.com/pyinstaller/pyinstaller) , 将代码打包成可执行程序。
+```
+pyinstaller -F -i Oxygen-Actions-view-preview.ico image_concat.py
+```
+感谢[Oxygen-Icons.org](http://www.oxygen-icons.org/) 社区非凡的创作。
